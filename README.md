@@ -50,7 +50,7 @@ Este repositorio es además la base del **portfolio profesional** del equipo, pe
 | 💻 | **Diego Moreno** | [@usuario](https://github.com) |
 | 💻 | **Nauzet Doreste** | [@usuario](https://github.com) |
 
-*Centro: Prometeo by The Power · Curso: 2024/2025*
+*Centro: Prometeo by The Power · Curso: 2025/2026*
 
 </div>
 
