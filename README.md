@@ -61,7 +61,7 @@ Este repositorio es además la base del **portfolio profesional** del equipo, pe
 El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una capa distinta de la infraestructura:
 
 | Módulo | Aportación al proyecto |
-|--------------------------------|
+
 | **Fundamentos de Hardware** | Análisis y diseño de la infraestructura física |
 | **Gestión de Bases de Datos** | Diseño e implementación de la base de datos |
 | **Implantación de Sistemas Operativos** | Despliegue y configuración de los sistemas |
