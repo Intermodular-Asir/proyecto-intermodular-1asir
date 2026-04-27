@@ -47,8 +47,8 @@ Este repositorio es además la base del **portfolio profesional** del equipo, pe
 | 👤 | Nombre | GitHub |
 |----|--------|--------|
 | 💻 | **Pilar Bordas** | [@usuario](https://github.com/Goxua9) |
-| 💻 | **Diego Moreno** | [@usuario](https://github.com/ndoreste) |
-| 💻 | **Nauzet Doreste** | [@usuario](https://github.com) |
+| 💻 | **Diego Moreno** | [@usuario](https://github.com) |
+| 💻 | **Nauzet Doreste** | [@usuario](https://github.com/ndoreste) |
 
 *Centro: Prometeo by The Power · Curso: 2025/2026*
 
