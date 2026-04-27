@@ -129,16 +129,6 @@ El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una c
 - Identificación y descripción de dispositivos de red
 - Servicios de red: DHCP, DNS, acceso remoto, compartición de archivos
 
-**Esquema de direccionamiento:**
-
-```
-Red:            192.168.10.0/24
-Gateway:        192.168.10.1
-Servidor web:   192.168.10.10
-Servidor BD:    192.168.10.11
-Clientes:       192.168.10.100 – 192.168.10.200
-```
-
 ---
 
 ## Implantación de Sistemas Operativos
@@ -169,19 +159,6 @@ Clientes:       192.168.10.100 – 192.168.10.200
 - Consultas útiles: SELECT con filtros, JOINs, listados
 - Administración básica: backups, exportación, gestión de usuarios
 
-**Cómo ejecutar la base de datos:**
-
-```bash
-# Crear la base de datos
-mysql -u root -p < base_de_datos/schema.sql
-
-# Insertar datos de prueba
-mysql -u root -p nombre_bbdd < base_de_datos/datos_prueba.sql
-
-# Ejecutar consultas
-mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
-```
-
 ---
 
 ## Lenguajes de Marcas
@@ -194,13 +171,6 @@ mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
 - Esquema XSD para validar el XML (estructura, tipos, restricciones, cardinalidades)
 - Evidencia de validación correcta
 - Integración con el proyecto (exportación/importación de datos)
-
-**Validar el XML:**
-
-```bash
-# Validación con xmllint
-xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
-```
 
 ---
 
