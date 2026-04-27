@@ -32,7 +32,7 @@
 
 ---
 
-## 🧭 ¿Qué es este proyecto?
+## ¿Qué es este proyecto?
 
 El **Proyecto Intermodular de 1º** es una iniciativa de **Prometeo by The Power** que integra todos los módulos del ciclo en un único proyecto real de infraestructura TI empresarial. No se trata de asignaturas sueltas, sino de un sistema coherente: el hardware, la red, el sistema operativo, la base de datos y la documentación estructurada funcionando juntos como lo harían en un entorno profesional.
 
@@ -40,7 +40,7 @@ Este repositorio es además la base del **portfolio profesional** del equipo, pe
 
 ---
 
-## 👥 Equipo
+## El equipo
 
 <div align="center">
 
@@ -56,50 +56,23 @@ Este repositorio es además la base del **portfolio profesional** del equipo, pe
 
 ---
 
-## 📁 Estructura del repositorio
-
-```
-📦 proyecto-intermodular-1asir/
-│
-├── 📁 docs/
-│   ├── 📁 hardware/          → Módulo 0371 · Fundamentos de Hardware
-│   ├── 📁 redes/             → Módulo 0370 · Planificación y Administración de Redes
-│   ├── 📁 sistemas/          → Módulo 0369 · Implantación de Sistemas Operativos
-│   ├── 📁 xml/               → Módulo 0373 · Lenguajes de Marcas
-│   │   ├── datos.xml
-│   │   ├── esquema.xsd
-│   │   └── evidencia_validacion/
-│   ├── 📁 cloud/             → MPO · Fundamentos de Computación en la Nube
-│   └── 📁 empleabilidad/     → Módulo 1709 · Itinerario Personal para la Empleabilidad
-│
-├── 📁 base_de_datos/         → Módulo 0372 · Gestión de Bases de Datos
-│   ├── 📄 schema.sql
-│   ├── 📄 datos_prueba.sql
-│   ├── 📄 consultas.sql
-│   └── 📄 diagrama_er.png
-│
-└── 📄 README.md
-```
-
----
-
-## 🗂️ Módulos del proyecto
+## Módulos del proyecto
 
 El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una capa distinta de la infraestructura:
 
-| Código | Módulo | Aportación al proyecto |
-|--------|--------|------------------------|
-| `0371` | **Fundamentos de Hardware** | Análisis y diseño de la infraestructura física |
-| `0372` | **Gestión de Bases de Datos** | Diseño e implementación de la base de datos |
-| `0369` | **Implantación de Sistemas Operativos** | Despliegue y configuración de los sistemas |
-| `0373` | **Lenguajes de Marcas** | Documentación estructurada en XML/XSD |
-| `0370` | **Planificación y Adm. de Redes** | Topología, direccionamiento IP y servicios de red |
-| `CMO`  | **Fundamentos de Computación en la Nube** | Arquitectura cloud y estimación de costes |
-| `1709` | **Itinerario para la Empleabilidad I** | Perfil profesional y portfolio |
+| Módulo | Aportación al proyecto |
+|--------------------------------|
+| **Fundamentos de Hardware** | Análisis y diseño de la infraestructura física |
+| **Gestión de Bases de Datos** | Diseño e implementación de la base de datos |
+| **Implantación de Sistemas Operativos** | Despliegue y configuración de los sistemas |
+| **Lenguajes de Marcas** | Documentación estructurada en XML/XSD |
+| **Planificación y Adm. de Redes** | Topología, direccionamiento IP y servicios de red |
+| **Fundamentos de Computación en la Nube** | Arquitectura cloud y estimación de costes |
+| **Itinerario para la Empleabilidad I** | Perfil profesional y portfolio |
 
 ---
 
-## 🏗️ Infraestructura del sistema
+## Infraestructura del sistema
 
 ```
                         ┌─────────────────────────────────────────┐
@@ -130,7 +103,7 @@ El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una c
 
 ---
 
-## 🔩 Módulo 0371 · Fundamentos de Hardware
+## Fundamentos de Hardware
 
 > Análisis y diseño de la infraestructura física del sistema.
 
@@ -142,11 +115,9 @@ El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una c
 - Sistema de almacenamiento (SSD/HDD, capacidad, uso previsto)
 - Reflexión sobre mejoras y evolución del sistema
 
-📂 Documentación: [`/docs/hardware/`](./docs/hardware/)
-
 ---
 
-## 🌐 Módulo 0370 · Planificación y Administración de Redes
+## Planificación y Administración de Redes
 
 > Diseño y documentación de la infraestructura de red.
 
@@ -168,11 +139,9 @@ Servidor BD:    192.168.10.11
 Clientes:       192.168.10.100 – 192.168.10.200
 ```
 
-📂 Documentación: [`/docs/redes/`](./docs/redes/)
-
 ---
 
-## 🐧 Módulo 0369 · Implantación de Sistemas Operativos
+## Implantación de Sistemas Operativos
 
 > Diseño, instalación y configuración de los sistemas operativos de la infraestructura.
 
@@ -185,11 +154,9 @@ Clientes:       192.168.10.100 – 192.168.10.200
 - Gestión de usuarios, grupos y permisos
 - Configuración de servicios básicos (acceso remoto, compartición, etc.)
 
-📂 Documentación: [`/docs/sistemas/`](./docs/sistemas/)
-
 ---
 
-## 🗄️ Módulo 0372 · Gestión de Bases de Datos
+## Gestión de Bases de Datos
 
 > Diseño, implementación y administración de la base de datos del sistema.
 
@@ -215,11 +182,9 @@ mysql -u root -p nombre_bbdd < base_de_datos/datos_prueba.sql
 mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
 ```
 
-📂 Scripts: [`/base_de_datos/`](./base_de_datos/)
-
 ---
 
-## 📄 Módulo 0373 · Lenguajes de Marcas
+## Lenguajes de Marcas
 
 > Gestión y validación de información estructurada mediante XML y XSD.
 
@@ -237,11 +202,9 @@ mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
 xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
 ```
 
-📂 Archivos: [`/docs/xml/`](./docs/xml/)
-
 ---
 
-## ☁️ MPO · Fundamentos de Computación en la Nube
+## Fundamentos de Computación en la Nube
 
 > Análisis y diseño de una arquitectura cloud básica para el proyecto.
 
@@ -252,11 +215,9 @@ xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
 - Servicios cloud utilizados (instancias, BD gestionada, almacenamiento)
 - Estimación de costes mensuales con calculadora del proveedor
 
-📂 Documentación: [`/docs/cloud/`](./docs/cloud/)
-
 ---
 
-## 💼 Módulo 1709 · Itinerario Personal para la Empleabilidad I
+## Itinerario Personal para la Empleabilidad I
 
 > Construcción de la identidad profesional de cada miembro del equipo.
 
@@ -268,27 +229,9 @@ xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
 - Portfolio básico con capturas, explicaciones y aprendizajes
 - Reflexión personal del proceso
 
-📂 Documentación: [`/docs/empleabilidad/`](./docs/empleabilidad/)
-
 ---
 
-## 📅 Fases del proyecto
-
-```
-FASE 1 · Idea y planteamiento        ████████████████████  ✅
-FASE 2 · Diseño de infraestructura   ████████████████░░░░  En curso
-FASE 3 · Sistemas y servicios        ████████████░░░░░░░░  En curso
-FASE 4 · Gestión de datos            ████████░░░░░░░░░░░░  En curso
-FASE 5 · Lenguajes de marcas         ████░░░░░░░░░░░░░░░░  Pendiente
-FASE 6 · Revisión del sistema        ░░░░░░░░░░░░░░░░░░░░  Pendiente
-FASE 7 · Limpieza y entrega final    ░░░░░░░░░░░░░░░░░░░░  Pendiente
-```
-
-> **⏰ Fecha límite de entrega: Domingo 3 de mayo de 2025 a las 23:59**
-
----
-
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 <div align="center">
 
@@ -304,20 +247,11 @@ FASE 7 · Limpieza y entrega final    ░░░░░░░░░░░░░░
 
 ---
 
-## 👨‍🏫 Tutores de referencia
-
-| Módulos | Tutor | Contacto |
-|---------|-------|----------|
-| Redes · Cloud · SO · Hardware | **Miguel Ángel Alayón** | miguel.alayon@thepower.education |
-| Bases de Datos · Lenguajes de Marcas | **Francisco Molpeceres Blázquez** | francisco.molpeceres@thepower.education |
-
----
-
 <div align="center">
 
 **Pilar Bordas · Diego Moreno · Nauzet Doreste**
 
-*1º ASIR Virtual · Prometeo by The Power · 2024/2025*
+*1º ASIR · Prometeo by The Power · 2024/2025*
 
 <br/>
 
