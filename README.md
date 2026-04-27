@@ -221,7 +221,7 @@ El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una c
 
 **Pilar Bordas · Diego Moreno · Nauzet Doreste**
 
-*1º ASIR · Prometeo by The Power · 2024/2025*
+*1º ASIR · Prometeo by The Power · 2025/2026*
 
 <br/>
 
