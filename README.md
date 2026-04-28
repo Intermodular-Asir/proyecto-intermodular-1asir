@@ -169,19 +169,6 @@ Clientes:       192.168.10.100 – 192.168.10.200
 - Consultas útiles: SELECT con filtros, JOINs, listados
 - Administración básica: backups, exportación, gestión de usuarios
 
-**Cómo ejecutar la base de datos:**
-
-```bash
-# Crear la base de datos
-mysql -u root -p < base_de_datos/schema.sql
-
-# Insertar datos de prueba
-mysql -u root -p nombre_bbdd < base_de_datos/datos_prueba.sql
-
-# Ejecutar consultas
-mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
-```
-
 ---
 
 ## Lenguajes de Marcas
@@ -194,13 +181,6 @@ mysql -u root -p nombre_bbdd < base_de_datos/consultas.sql
 - Esquema XSD para validar el XML (estructura, tipos, restricciones, cardinalidades)
 - Evidencia de validación correcta
 - Integración con el proyecto (exportación/importación de datos)
-
-**Validar el XML:**
-
-```bash
-# Validación con xmllint
-xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
-```
 
 ---
 
