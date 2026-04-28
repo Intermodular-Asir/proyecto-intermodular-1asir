@@ -251,7 +251,7 @@ xmllint --schema docs/xml/esquema.xsd docs/xml/datos.xml --noout
 
 **Pilar Bordas · Diego Moreno · Nauzet Doreste**
 
-*1º ASIR · Prometeo by The Power · 2024/2025*
+*1º ASIR · Prometeo by The Power · 2025/2026*
 
 <br/>
 
