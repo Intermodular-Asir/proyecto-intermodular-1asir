@@ -1,0 +1,85 @@
+{
+  "sistema_usuarios": {
+    "empresa": "TechCampus Solutions",
+    "fecha_generacion": "2026-04-17",
+    "roles": [
+      {
+        "id": "r_admin",
+        "nombre": "Administrador",
+        "nivel": "alto",
+        "descripcion": "Gestiona usuarios, permisos y configuración general."
+      },
+      {
+        "id": "r_editor",
+        "nombre": "Editor",
+        "nivel": "medio",
+        "descripcion": "Puede crear y modificar contenidos de la plataforma."
+      },
+      {
+        "id": "r_viewer",
+        "nombre": "Consultor",
+        "nivel": "basico",
+        "descripcion": "Accede a la información en modo consulta."
+      }
+    ],
+    "usuarios": [
+      {
+        "id": "u001",
+        "rol": "r_admin",
+        "estado": "activo",
+        "nombre": "Lucía",
+        "apellidos": "Morales Díaz",
+        "email": "lucia.morales@techcampus.local",
+        "telefono": "600123123",
+        "departamento": "Sistemas",
+        "ultimo_acceso": "2026-04-16 18:30",
+        "permisos": [
+          { "tipo": "administracion", "valor": "Gestionar usuarios" },
+          { "tipo": "escritura", "valor": "Modificar configuración" }
+        ]
+      },
+      {
+        "id": "u002",
+        "rol": "r_editor",
+        "estado": "activo",
+        "nombre": "Daniel",
+        "apellidos": "Ruiz Martín",
+        "email": "daniel.ruiz@techcampus.local",
+        "telefono": "611987654",
+        "departamento": "Marketing",
+        "ultimo_acceso": "2026-04-17 08:15",
+        "permisos": [
+          { "tipo": "lectura", "valor": "Consultar campañas" },
+          { "tipo": "escritura", "valor": "Editar publicaciones" }
+        ]
+      },
+      {
+        "id": "u003",
+        "rol": "r_viewer",
+        "estado": "inactivo",
+        "nombre": "Ana",
+        "apellidos": "Suárez León",
+        "email": "ana.suarez@techcampus.local",
+        "departamento": "Recursos Humanos",
+        "permisos": [
+          { "tipo": "lectura", "valor": "Consultar informes internos" }
+        ]
+      },
+      {
+        "id": "u004",
+        "rol": "r_editor",
+        "estado": "bloqueado",
+        "nombre": "Pedro",
+        "apellidos": "Hernández Gil",
+        "email": "pedro.hernandez@techcampus.local",
+        "telefono": "622456456",
+        "departamento": "Soporte",
+        "ultimo_acceso": "2026-04-10 12:02",
+        "permisos": [
+          { "tipo": "lectura", "valor": "Ver incidencias" },
+          { "tipo": "escritura", "valor": "Actualizar incidencias" }
+        ]
+      }
+    ]
+  }
+}

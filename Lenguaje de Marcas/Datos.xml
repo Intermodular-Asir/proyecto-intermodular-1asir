@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE sistema_usuarios SYSTEM "modelo.dtd">
+<sistema_usuarios empresa="TechCampus Solutions" fecha_generacion="2026-04-17">
+  <roles>
+    <rol id="r_admin" nombre="Administrador" nivel="alto">
+      <descripcion>Gestiona usuarios, permisos y configuración general.</descripcion>
+    </rol>
+    <rol id="r_editor" nombre="Editor" nivel="medio">
+      <descripcion>Puede crear y modificar contenidos de la plataforma.</descripcion>
+    </rol>
+    <rol id="r_viewer" nombre="Consultor" nivel="basico">
+      <descripcion>Accede a la información en modo consulta.</descripcion>
+    </rol>
+  </roles>
+
+  <usuarios>
+    <usuario id="u001" rol="r_admin" estado="activo">
+      <nombre>Lucía</nombre>
+      <apellidos>Morales Díaz</apellidos>
+      <email>lucia.morales@techcampus.local</email>
+      <telefono>600123123</telefono>
+      <departamento>Sistemas</departamento>
+      <ultimo_acceso>2026-04-16 18:30</ultimo_acceso>
+      <permisos>
+        <permiso tipo="administracion">Gestionar usuarios</permiso>
+        <permiso tipo="escritura">Modificar configuración</permiso>
+      </permisos>
+    </usuario>
+
+    <usuario id="u002" rol="r_editor" estado="activo">
+      <nombre>Daniel</nombre>
+      <apellidos>Ruiz Martín</apellidos>
+      <email>daniel.ruiz@techcampus.local</email>
+      <telefono>611987654</telefono>
+      <departamento>Marketing</departamento>
+      <ultimo_acceso>2026-04-17 08:15</ultimo_acceso>
+      <permisos>
+        <permiso tipo="lectura">Consultar campañas</permiso>
+        <permiso tipo="escritura">Editar publicaciones</permiso>
+      </permisos>
+    </usuario>
+
+    <usuario id="u003" rol="r_viewer" estado="inactivo">
+      <nombre>Ana</nombre>
+      <apellidos>Suárez León</apellidos>
+      <email>ana.suarez@techcampus.local</email>
+      <departamento>Recursos Humanos</departamento>
+      <permisos>
+        <permiso tipo="lectura">Consultar informes internos</permiso>
+      </permisos>
+    </usuario>
+
+    <usuario id="u004" rol="r_editor" estado="bloqueado">
+      <nombre>Pedro</nombre>
+      <apellidos>Hernández Gil</apellidos>
+      <email>pedro.hernandez@techcampus.local</email>
+      <telefono>622456456</telefono>
+      <departamento>Soporte</departamento>
+      <ultimo_acceso>2026-04-10 12:02</ultimo_acceso>
+      <permisos>
+        <permiso tipo="lectura">Ver incidencias</permiso>
+        <permiso tipo="escritura">Actualizar incidencias</permiso>
+      </permisos>
+    </usuario>
+  </usuarios>
+</sistema_usuarios>
