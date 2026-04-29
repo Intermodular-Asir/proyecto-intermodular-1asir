@@ -129,16 +129,6 @@ El proyecto integra **todos los módulos de 1º ASIR**, cada uno aportando una c
 - Identificación y descripción de dispositivos de red
 - Servicios de red: DHCP, DNS, acceso remoto, compartición de archivos
 
-**Esquema de direccionamiento:**
-
-```
-Red:            192.168.10.0/24
-Gateway:        192.168.10.1
-Servidor web:   192.168.10.10
-Servidor BD:    192.168.10.11
-Clientes:       192.168.10.100 – 192.168.10.200
-```
-
 ---
 
 ## Implantación de Sistemas Operativos
